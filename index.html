@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calc</title>
+</head>
+<body>
+    <div class="calc">
+        <input name="number1" type="text" size=10 id='num1' placeholder="Enter number 1"/>
+        <br>
+        <input name="number2" type="text" size=10 id='num2' placeholder="Enter number 2"/>
+        <br>
+         <input type="text" id='result' readonly placeholder="Your result will be here" >
+            <div class="buttons">
+            <button onclick="showresult('1')">-</button>
+            <button onclick="showresult('2')">+</button>
+            <button onclick="showresult('3')">/</button>
+            <br>
+            <button onclick="showresult('4')">*</button>
+            <button onclick="showresult('5')">%</button>
+            <button onclick="showresult('6')">x^y</button>
+            <br>
+            <button onclick="showresult('7')">√</button>
+            <button onclick="showresult('8')">Log</button>
+            <button onclick="showresult('9')">Log</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
